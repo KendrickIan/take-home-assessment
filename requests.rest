@@ -1,0 +1,28 @@
+POST http://localhost:6969/api/users
+Content-Type: application/json
+
+{
+    "name": "testapi2",
+    "email": "testapi2@email.com",
+    "password": "testapi2123"
+}
+
+###
+
+POST http://localhost:6969/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "testapi@email.com",
+    "password": "testapi123"
+}
+
+###
+GET http://localhost:6969/api/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOTAyMjI4YzEtYmRjYS00YmRiLTkyOGYtODQwOWUyNTU1ZWExIiwidXNlcl9uYW1lIjoidGVzdGFwaSIsInVzZXJfZW1haWwiOiJ0ZXN0YXBpQGVtYWlsLmNvbSIsImlhdCI6MTY4MzgxMDUxNSwiZXhwIjoxNjgzODExNDE1fQ.a4wAYaOIG4Xnr6UdpQixv4_Bp3K12aYPYA0vyarSA_E
+
+###
+GET http://localhost:6969/api/auth/refresh_token
+
+###
+DELETE http://localhost:6969/api/auth/refresh_token
