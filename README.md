@@ -1,4 +1,4 @@
-# Setup after cloning to local device
+# Setup after cloning to local device (README WIP)
 # installation
 - run *npm install* in the root directory of application
 - in root directory of application, create a file *'.env'*
