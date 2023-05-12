@@ -10,7 +10,7 @@
   
  # setup database
  - open *'database.sql'* file and follow the steps provided to create a postgresql database and tables for the application
- - once done, change the db credentials to your respective credentials to access psql in your local machine
+ - once done, open the *'db.js'* file then change the db credentials to your respective credentials to access psql in your local machine
 
 # APIs
 **Create user**
